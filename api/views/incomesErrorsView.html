@@ -1,0 +1,29 @@
+<div id="main-wrapper">
+    <div class="wrapper style1">
+        <div class="inner">
+            <div class="row aln-center">
+                <div class="col-12">
+                    <h3 class="error-txt major">{{error}}</h3>
+                </div>
+            </div>
+            <div class="add-container">
+                <form action="searchIncomes" method="POST"  id="searchForm">
+                    <div class="row aln-center">
+                        <div class="col-12">
+                            <h3 class="add-title major">Caută venituri</h3>
+                        </div>
+                    </div>
+                    <div class="add-form-group ">
+                        <span class="add-span">Data<span class="text-danger"> *</span> </span>
+                        <input type="date" name="searchDate" class="add-input" id="myDate" required>
+                    </div>
+                    <div class="add-form-group ">
+                        <ul class="actions">
+                            <li><input type="submit" value="Caută" class="search-button" id="searchButton" /></li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </div> 
+    </div>
+</div>

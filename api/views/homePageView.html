@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+		<title>Mounthly Budget</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="shortcut icon" href="api/assets/images/favicon.png" type="image/x-icon">
+        <base href="/MounthlyBudget/">
+		<link rel="stylesheet" href="api/assets/css/main.css?version=3" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bellota+Text:300,300i,400,400i,700,700i&ampdisplay=swap">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,300;1,400;1,500;1,600&ampdisplay=swap" rel="stylesheet">
+		<noscript><link rel="stylesheet" href="api/assets/css/noscript.css" /></noscript>
+	
+</head>
+<body class="is-preload">
+    <!-- Wrapper -->
+	<div id="wrapper">
+		<!-- Header -->
+		<header id="header">
+			<div class="logo">
+				<span class="icon fa-gem"></span>
+			</div>
+			<div class="content">
+				<div class="inner">
+					<h1>Dimension</h1>
+					<p>Let your dreams be your wings</p>
+				</div>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#login">Login</a></li>
+					<li><a href="#signupForm">Signup</a></li>
+					<li><a href="#searchUser">Forgot</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!-- Main -->
+		<div id="main">
+			<!-- Login -->
+			<article id="login">
+				<h3 class="major">Login Form</h3>
+				<form method="post" action="login">
+					<div class="fields">
+						<div class="field">
+							<label for="demo-name">Username</label>
+							<input type="text" name="loginUsername" id="demo-name" value="" placeholder="Jane Doe" required/>
+						</div>
+						
+						
+						<div class="field">
+							<label for="demo-password">Password</label>
+							<input type="password" name="loginPassword" id="demo-password" value="" required />
+						</div>
+								
+					</div>
+					<ul class="actions">
+						<li><input type="submit" value="Login" class="primary" /></li>
+						<li><input type="reset" value="Reset" /></li>
+					</ul>
+				</form>
+			</article>
+			<!-- signup -->
+			<article id="signupForm">
+				<h3 class="major">Signup Form</h3>
+				<form method="post" action="signup">
+					<div class="fields">
+						<div class="field">
+							<label for="demo-signupUsername">Username</label>
+							<input type="text" name="signupUsername" id="demo-signupUsername"  placeholder="Jane Doe" required/>
+						</div>
+						<div class="field ">
+							<label for="demo-signupEmail">Email</label>
+							<input type="email" name="signupEmail" id="demo-signupEmail"  placeholder="jane@untitled.com" />
+						</div>
+						
+						<div class="field">
+							<label for="demo-signupPassword">Password</label>
+							<input type="password" name="signupPassword" id="demo-signupPassword"  required />
+						</div>
+						
+					</div>
+					<ul class="actions">
+						<li><input type="submit" value="SIGNUP" class="primary" /></li>
+						<li><input type="reset" value="Reset" /></li>
+					</ul>
+				</form>
+			</article>
+			<!-- Login -->
+			<article id="searchUser">
+				<h3 class="major">Search User</h3>
+				<form method="post" action="login">
+					<div class="fields">
+						<div class="field">
+							<label for="demo-name">Email</label>
+							<input type="email" name="searchEmail" id="demo-name" value="" placeholder="jane@untitled.com" required/>
+						</div>
+								
+					</div>
+					<ul class="actions">
+						<li><input type="submit" value="SEARCH" class="primary" /></li>
+						<li><input type="reset" value="Reset" /></li>
+					</ul>
+				</form>
+			</article>
+		</div>
+	</div>
+<!-- BG -->
+<div id="bg"></div>
+	<!-- Scripts -->
+	<script src="api/assets/js/jquery.min.js"></script>
+	<script src="api/assets/js/browser.min.js"></script>
+	<script src="api/assets/js/breakpoints.min.js"></script>
+	<script src="api/assets/js/util.js"></script>
+	<script src="api/assets/js/main.js"></script>
+</body>
+</html>

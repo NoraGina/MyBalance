@@ -1,0 +1,88 @@
+<!-- Header -->
+<header id="header">
+    <div class="logo">
+        <span class="icon fa-gem"></span>
+    </div>
+    <div class="content">
+        <div class="inner">
+            <h1>Make your own budget</h1>
+            <p>{{message}}</p>
+        </div>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#login">Login</a></li>
+            <li><a href="#signupForm">Signup</a></li>
+            <li><a href="#searchUserForm">Forgot</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- Main -->
+<div id="main">
+    <!-- Login -->
+    <article id="login">
+        <h3 class="major">Login Form</h3>
+        <form method="post" action="login">
+            <div class="fields">
+                <div class="field">
+                    <label for="demo-name">Username</label>
+                    <input type="text" name="loginUsername" id="demo-name" value="" placeholder="Jane Doe" required/>
+                </div>
+                
+                
+                <div class="field">
+                    <label for="demo-password">Password</label>
+                    <input type="password" name="loginPassword" id="demo-password" value="" required />
+                </div>
+                        
+            </div>
+            <ul class="actions">
+                <li><input type="submit" value="Login" class="primary" /></li>
+                <li><input type="reset" value="Reset" /></li>
+            </ul>
+        </form>
+    </article>
+    <!-- signup -->
+    <article id="signupForm">
+        <h3 class="major">Signup Form</h3>
+        <form method="post" action="signup">
+            <div class="fields">
+                <div class="field">
+                    <label for="demo-signupUsername">Username</label>
+                    <input type="text" name="signupUsername" id="demo-signupUsername"  placeholder="Jane Doe" required/>
+                </div>
+                <div class="field ">
+                    <label for="demo-signupEmail">Email</label>
+                    <input type="email" name="signupEmail" id="demo-signupEmail"  placeholder="jane@untitled.com" />
+                </div>
+                
+                <div class="field">
+                    <label for="demo-signupPassword">Password</label>
+                    <input type="password" name="signupPassword" id="demo-signupPassword"  required />
+                </div>
+                
+            </div>
+            <ul class="actions">
+                <li><input type="submit" value="SIGNUP" class="primary" /></li>
+                <li><input type="reset" value="Reset" /></li>
+            </ul>
+        </form>
+    </article>
+    <!-- Login -->
+    <article id="searchUserForm">
+        <h3 class="major">Search User</h3>
+        <form method="post" action="updateUserForm">
+            <div class="fields">
+                <div class="field">
+                    <label for="demo-name">Email</label>
+                    <input type="email" name="searchEmail" id="demo-name" value="" placeholder="jane@untitled.com" required/>
+                </div>
+                        
+            </div>
+            <ul class="actions">
+                <li><input type="submit" value="SEARCH" class="primary" /></li>
+                <li><input type="reset" value="Reset" /></li>
+            </ul>
+        </form>
+    </article>
+</div>

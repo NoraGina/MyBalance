@@ -1,0 +1,41 @@
+<div class="inner">
+   <div class="add-container">
+        <form action="addIncome" method="POST"  id="addForm">
+            <div class="row aln-center">
+                <div class="col-12">
+                    <h3 class="add-title major">Adaugă venit</h3>
+                </div>
+            </div>
+            <div class="add-form-group">
+                <span class="add-span">Data<span class="text-danger"> *</span> </span>
+                <input type="date" name="addedAt" class="add-input" id="myDate" required>
+            </div>
+            {{user}}
+            <div class="add-form-group">
+                <span class="add-span">Denumire <span class="text-danger"> *</span> </span>
+                <input type="text" name="name" class="add-input" placeholder="Salar luna..." required>
+            </div>
+            
+            <div class="add-form-group">
+                <span class="add-span">Categorie <span class="text-danger"> *</span></span>
+                <select name="incomeCategory" id="selectAdd" class="add-input">
+                    {{categories}}
+                </select>
+            </div>
+            <div class="add-form-group ">
+                <span class="add-span">Valoare<span class="text-danger"> *</span></span>
+                <input type="number" step="0.01" name="value" required>
+            </div>
+            
+            
+            
+            <div class="add-form-group ">
+                <ul class="actions">
+                    <li><input type="submit" value="Adaugă venit" class="add-button" /></li>
+                    <li><input type="reset" value="Reset" class="reset-button" /></li>
+                </ul>
+            </div>
+        </form>
+        
+    </div>
+</div>
